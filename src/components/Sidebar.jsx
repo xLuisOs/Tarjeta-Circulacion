@@ -30,7 +30,7 @@ const NAV = [
       {
         id: 'nueva',
         label: 'Nueva Tarjeta',
-        icon: <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/><path d="M7 15h2M11 15h4"/></svg>,
+        icon: <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M7 15h2M11 15h4"/></svg>,
       },
     ],
   },
@@ -41,6 +41,11 @@ const NAV = [
         id: 'mantenimiento',
         label: 'Mantenimiento',
         icon: <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>,
+      },
+      {
+        id: 'desactivacion',
+        label: 'Desactivación',
+        icon: <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6M9 9l6 6"/></svg>,
       },
       {
         id: 'catalogos',
@@ -95,7 +100,7 @@ export default function Sidebar({ activePage, onNavigate }) {
 
       <div className="px-3 py-4 border-t border-white/6 text-center">
         <p className="text-[10px] text-white/20 leading-relaxed">
-          Bases de Datos I<br />URL
+          Bases de Datos I<br />URL · Entrega Final
         </p>
       </div>
     </aside>
